@@ -1,0 +1,348 @@
+:root {
+    --title: 'Kirang Haerang', cursive;
+    --cuisine-title: 'Comfortaa', cursive;
+    --text: 'Roboto', sans-serif;
+    --h4-span-color: rgba(49, 45, 45, 0.705);
+}
+
+body {
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+#title {
+    font-family: var(--title);
+    font-size: 6.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 50px;
+}
+
+#noodventure {
+    font-family: var(--text);
+    text-align: center;
+    font-size: 2rem;
+}
+
+#italic {
+    font-style: italic;
+}
+
+.header-cont {
+    background-image: url(images/title-background.jpg);
+    background-size: 1500px;
+    background-position: center;
+}
+
+.cuisine-cont {
+    width: 90%;
+    margin: auto;
+}
+
+.cuisine {
+    font-family: var(--cuisine-title);
+    font-size: 3rem;
+    letter-spacing: .5rem;
+}
+
+.whole-food-cont {
+    padding: 10px 0;
+}
+
+.food-title-cont {
+    width: 80%;
+    margin: auto;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.food-info-cont {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    font-family: var(--text);
+
+}
+
+.dish-name {
+    text-align: center;
+    font-family: var(--cuisine-title);
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 10px;
+    color: white;
+    font-weight: 400;
+}
+
+h4 span {
+    background-color: var(--h4-span-color)
+}
+
+.detail-img {
+    width: 375px;
+}
+
+.left-side {
+    display: flex;
+    padding: 20px;
+
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.exit-btn {
+    position: absolute;
+    left: 96%;
+    bottom: 90%;
+    color: white;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.hidden {
+    height: 65px;
+    overflow-y: hidden;
+}
+
+.active {
+    display: block;
+}
+
+.food-title-cont {
+    background-position: center;
+    background-size: 100%;
+}
+
+.brown-cont {
+    background-color: #9d8189;
+}
+
+.purple-cont {
+    background-color: #e0aaff;
+}
+
+.pink-cont {
+    background-color: #ffcad4;
+}
+
+.yellow-cont {
+    background-color: #ffe5d9;
+}
+
+.green-cont {
+    background-color: #d8e2dc;
+}
+
+/* Dish Images */
+
+.tonkatsu {
+    background-image: url(images/tonkatsu-ramen.jpg);
+} 
+
+.miso {
+    background-image: url(images/miso-ramen.jpg);
+} 
+
+.shoyu {
+    background-image: url(images/shoyu-ramen.jpg);
+}
+
+.tsukemen {
+    background-image: url(images/Tsukemen-ramen.jpg);
+}
+
+.paitan {
+    background-image: url(images/paitan-ramen.jpg);
+}
+
+.shio {
+    background-image: url(images/shio-ramen.jpg);
+}
+
+.udon {
+    background-image: url(images/udon.jpg);
+}
+
+.yakisoba {
+    background-image: url(images/yakisoba.jpg);
+}
+
+.soba {
+    background-image: url(images/soba.jpeg);
+}
+
+.somen {
+    background-image: url(images/somen.jpg);
+}
+
+.lo-mein {
+    background-image: url(images/lo-mein.jpg);
+}
+
+
+.chow-mein {
+    background-image: url(images/chow-mein.jpg);
+}
+
+.dan-dan {
+    background-image: url(images/dan-dan.jpg);
+}
+
+.wonton-noodle {
+    background-image: url(images/wonton-noodle.jpg);
+}
+
+.zhajiangmian {
+    background-image: url(images/zhajiangmian.jpg);
+}
+
+.beef-chow-fun {
+    background-image: url(images/beef-chow-fun.jpg);
+}
+
+.biangbiang {
+    background-image: url(images/biangbiang.jpg);
+}
+
+.liangpi {
+    background-image: url(images/liangpi.jpg);
+}
+
+.spaghetti {
+    background-image: url(images/spaghetti.jpg);
+}
+
+.penne {
+    background-image: url(images/penne.jpg);
+}
+
+.linguine {
+    background-image: url(images/linguine.jpg);
+}
+
+.fettuccine {
+    background-image: url(images/fettuccine.jpg);
+}
+
+.tortellini {
+    background-image: url(images/tortellini.jpg);
+}
+
+.ravioli {
+    background-image: url(images/ravioli.jpg);
+}
+
+.macaroni {
+    background-image: url(images/macaroni.jpg);
+}
+
+.angel-hair {
+    background-image: url(images/angel-hair.jpg);
+}
+
+.pappardelle {
+    background-image: url(images/pappardelle.jpg);
+}
+
+.ziti {
+    background-image: url(images/ziti.jpg);
+}
+
+.farfalle {
+    background-image: url(images/farfalle.jpg);
+}
+
+.rigatoni {
+    background-image: url(images/rigatoni.jpg);
+}
+
+.lasagna {
+    background-image: url(images/lasagna.jpg);
+}
+
+.orzo {
+    background-image: url(images/orzo.jpg);
+}
+
+.pho {
+    background-image: url(images/pho.jpg);
+}
+
+.bun-bo-hue {
+    background-image: url(images/bun-bo-hue.jpg);
+}
+
+.cao-lau {
+    background-image: url(images/cao-lau.jpg);
+}
+
+.bun-rieu {
+    background-image: url(images/bun-rieu.jpg);
+}
+
+.bun-thit-nuong {
+    background-image: url(images/bun-thit-nuong.jpg);
+}
+
+.japchae {
+    background-image: url(images/japchae.jpg);
+}
+
+.jjapaguri {
+    background-image: url(images/jjapaguri.jpg);
+}
+
+.milmyeon {
+    background-image: url(images/milmyeon.jpg);
+}
+
+.jajangmyeon {
+    background-image: url(images/jajangmyeon.jpg);
+}
+
+.kal-guksu {
+    background-image: url(images/kal-guksu.jpg);
+}
+
+.pad-thai {
+    background-image: url(images/pad-thai.jpg);
+}
+
+.pad-see-ew {
+    background-image: url(images/pad-see-ew.jpg);
+}
+
+.pad-kee-mao {
+    background-image: url(images/pad-kee-mao.jpg);
+}
+
+.khao-soi {
+    background-image: url(images/khao-soi.jpg);
+}
+
+.mee-krob {
+    background-image: url(images/mee-krob.jpg);
+}
+
+.pad-woon-sen {
+    background-image: url(images/pad-woon-sen.jpg);
+}
+
+.tallarin-saltado {
+    background-image: url(images/tallarin-saltado.jpg);
+}
